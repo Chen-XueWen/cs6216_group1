@@ -26,6 +26,6 @@ python eval.py
 ### Experiment Result for seq2seq approach
 |Task|F1|Precision|Recall|
 |----|--|---------|------|
-|Mentions||||
-|Mentions||||
-|Mentions||||
+|Mentions Extraction|0.8296|0.8401|0.8193|
+|Coreferences|0.7237|0.7481|0.7007|
+|Relations Extraction|0.06386|0.1492|0.0406|
