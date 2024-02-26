@@ -1,2 +1,2 @@
 # cs6216_group1
-seq2seq Approach to End to End Relation Extraction
+Seq2Seq Approach to End to End Relation Extraction
