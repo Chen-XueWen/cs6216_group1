@@ -1,4 +1,4 @@
-# cs6216_group1
+# cs6216 Group1
 Seq2Seq Approach to End to End Relation Extraction
 
 ### Set-up environment
@@ -16,7 +16,7 @@ python prepro.py
 ```bash
 python main.py
 ```
-Checkpoint: To be updated
+Checkpoint: https://nusu-my.sharepoint.com/:u:/g/personal/dissta_nus_edu_sg/Ecra4WcjNbtJrq3vfPJGffgB6BN2bnkkkOiKpvGU1eLw1Q
 
 ### Evaluation
 ```bash
