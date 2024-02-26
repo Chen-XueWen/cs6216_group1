@@ -29,3 +29,5 @@ python eval.py
 |Mentions Extraction|0.8296|0.8401|0.8193|
 |Coreferences|0.7237|0.7481|0.7007|
 |Relations Extraction|0.06386|0.1492|0.0406|
+
+Comments: Quite okay for both Mentions Extractions and Coreferences but a very steep fall in performance for Relations Extraction. 
