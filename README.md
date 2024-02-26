@@ -1,4 +1,4 @@
-# cs6216 Group 1
+# CS6216 Group 1
 ## Seq2Seq Approach to End to End Relation Extraction
 
 ### Set-up environment
