@@ -1,5 +1,5 @@
-# cs6216 Group1
-Seq2Seq Approach to End to End Relation Extraction
+# cs6216 Group 1
+## Seq2Seq Approach to End to End Relation Extraction
 
 ### Set-up environment
 ```bash
