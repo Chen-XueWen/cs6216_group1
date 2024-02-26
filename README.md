@@ -2,3 +2,8 @@
 Seq2Seq Approach to End to End Relation Extraction
 
 Checkpoint:
+```python
+python prepro.py
+# output: data/processed/docred/dev_features.pkl test_features.pkl train_features.pkl
+```
+2. 
