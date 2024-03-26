@@ -1,0 +1,70 @@
+The below are Input Text, entities and relations in the text:
+
+Input Text:
+The Portland Golf Club is a private golf club in the northwest United States , in suburban Portland , Oregon . It is located in the unincorporated Raleigh Hills area of eastern Washington County , southwest of downtown Portland and east of Beaverton . PGC was established in the winter of 1914 , when a group of nine businessmen assembled to form a new club after leaving their respective clubs . The present site was chosen due to its relation to the Spokane , Portland and Seattle Railway 's interurban railroad line with frequent passenger service to the site because automobiles and roads were few . The PGA Championship , then a match play competition , was held at the club in 1946 . Ben Hogan , age 34 , overcame an early deficit in the 36-hole final match on August 25 to win 6 & 4 ; it was the first of his nine major titles . He had won the Portland Open the previous year in early autumn with a score of The following year , PGC hosted the Ryder Cup matches of 1947 , the first renewal in a decade , due to World War II . The U.S. team defeated Great Britain 11 to 1 in wet conditions in early November .
+Entities:
+['PGC, Portland Golf Club', 'United States, U.S.', 'Portland', 'Oregon', 'Raleigh Hills', 'Washington County', 'Beaverton', '1914', 'nine', 'Spokane', 'Seattle Railway', 'PGA Championship', '1946', 'Ben Hogan', '36-hole', 'August 25', 'Portland Open', 'Ryder Cup', '1947', 'World War II', 'Great Britain', '11', 'November']
+Relations:
+['PGC, Portland Golf Club, country, United States, U.S.', 'PGC, Portland Golf Club, located in the administrative territorial entity, Oregon', 'PGC, Portland Golf Club, inception, 1914', 'United States, U.S., contains administrative territorial entity, Oregon', 'Portland, country, United States, U.S.', 'Oregon, located in the administrative territorial entity, United States, U.S.', 'Oregon, country, United States, U.S.', 'Oregon, contains administrative territorial entity, Washington County', 'Raleigh Hills, country, United States, U.S.', 'Raleigh Hills, located in the administrative territorial entity, Washington County', 'Washington County, country, United States, U.S.', 'Washington County, located in the administrative territorial entity, Oregon', 'Washington County, contains administrative territorial entity, Raleigh Hills', 'Beaverton, country, United States, U.S.', 'PGA Championship, country, United States, U.S.']
+
+Please extract the entities and relations for the following input text
+Input Text:
+Dollar General Corporation is an American chain of variety stores headquartered in Goodlettsville , Tennessee . As of July 2018 , Dollar General operates 15,000 stores in 45 of the 48 contiguous United States ( the exceptions being three states in the northwest : Idaho , Montana , and Washington ) . The company first began in 1939 as a family - owned business called J.L. Turner and Son in Scottsville , Kentucky by James Luther Turner and Cal Turner . In 1968 , the name changed to Dollar General Corporation and the company went public on the New York Stock Exchange . Fortune 500 recognized Dollar General in 1999 and in 2018 reached # 123 . Dollar General has grown to become one of the most profitable stores in the rural United States with revenue reaching around $ 21 billion in 2017 .
+Entities: []
+Relations: []
+
+Relations should limited to only:
+['head of government','country','place of birth','place of death','father','mother','spouse','country of citizenship','continent','instance of','head of state','capital','official language','position held','child','author','member of sports team','director','screenwriter','educated at','composer','member of political party','employer','founded by','league','publisher','owned by','located in the administrative territorial entity','genre','operator','religion','contains administrative territorial entity','follows','followed by','headquarters location','cast member','producer','award received','creator','parent taxon','ethnic group','performer','manufacturer','developer','series','sister city','legislative body','basin country','located in or next to body of water','military branch','record label','production company','location','subclass of','subsidiary','part of','original language of work','platform','mouth of the watercourse','original network','member of','chairperson','country of origin','has part','residence','date of birth','date of death','inception','dissolved, abolished or demolished','publication date','start time','end time','point in time','conflict','characters','lyrics by','located on terrain feature','participant','influenced by','location of formation','parent organization','notable work','separated from','narrative location','work location','applies to jurisdiction','product or material produced','unemployment rate','territory claimed by','participant of','replaces','replaced by','capital of','languages spoken, written or signed','present in work','sibling']
+
+
+To extract entities and relations from the given text about Dollar General Corporation, I'll identify relevant details based on the provided categories for relations.
+Entities:
+
+    Dollar General Corporation
+    American
+    Goodlettsville
+    Tennessee
+    July 2018
+    15,000 stores
+    45
+    48 contiguous United States
+    Idaho
+    Montana
+    Washington
+    1939
+    J.L. Turner and Son
+    Scottsville
+    Kentucky
+    James Luther Turner
+    Cal Turner
+    1968
+    New York Stock Exchange
+    Fortune 500
+    1999
+    2018
+    #123
+    $21 billion
+    2017
+    rural United States
+
+Relations:
+
+    Dollar General Corporation, country, United States
+    Dollar General Corporation, headquarters location, Goodlettsville
+    Dollar General Corporation, located in the administrative territorial entity, Tennessee
+    Dollar General Corporation, inception, 1939
+    Dollar General Corporation, founded by, James Luther Turner
+    Dollar General Corporation, founded by, Cal Turner
+    J.L. Turner and Son, located in the administrative territorial entity, Kentucky
+    J.L. Turner and Son, location of formation, Scottsville
+    Dollar General Corporation, follows, J.L. Turner and Son
+    Dollar General Corporation, original language of work, English (implied by being an American company)
+    Dollar General Corporation, part of, 48 contiguous United States
+    Dollar General Corporation, subsidiary, [none identified, but implied expansion]
+    Dollar General Corporation, operates in, 45 of the 48 contiguous United States
+    Dollar General Corporation, notable work, recognized by Fortune 500
+    Dollar General Corporation, country of origin, United States
+    Dollar General Corporation, publication date, went public in 1968
+    Dollar General Corporation, product or material produced, variety store items
+
+This extraction summarizes the main entities and their relations within the provided text, focusing on geographical, foundational, and operational aspects relevant to the categories specified.

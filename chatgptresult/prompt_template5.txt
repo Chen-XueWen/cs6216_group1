@@ -1,0 +1,58 @@
+The below are Input Text, entities and relations in the text:
+
+Input Text:
+The Portland Golf Club is a private golf club in the northwest United States , in suburban Portland , Oregon . It is located in the unincorporated Raleigh Hills area of eastern Washington County , southwest of downtown Portland and east of Beaverton . PGC was established in the winter of 1914 , when a group of nine businessmen assembled to form a new club after leaving their respective clubs . The present site was chosen due to its relation to the Spokane , Portland and Seattle Railway 's interurban railroad line with frequent passenger service to the site because automobiles and roads were few . The PGA Championship , then a match play competition , was held at the club in 1946 . Ben Hogan , age 34 , overcame an early deficit in the 36-hole final match on August 25 to win 6 & 4 ; it was the first of his nine major titles . He had won the Portland Open the previous year in early autumn with a score of The following year , PGC hosted the Ryder Cup matches of 1947 , the first renewal in a decade , due to World War II . The U.S. team defeated Great Britain 11 to 1 in wet conditions in early November .
+Entities:
+['PGC, Portland Golf Club', 'United States, U.S.', 'Portland', 'Oregon', 'Raleigh Hills', 'Washington County', 'Beaverton', '1914', 'nine', 'Spokane', 'Seattle Railway', 'PGA Championship', '1946', 'Ben Hogan', '36-hole', 'August 25', 'Portland Open', 'Ryder Cup', '1947', 'World War II', 'Great Britain', '11', 'November']
+Relations:
+['PGC, Portland Golf Club, country, United States, U.S.', 'PGC, Portland Golf Club, located in the administrative territorial entity, Oregon', 'PGC, Portland Golf Club, inception, 1914', 'United States, U.S., contains administrative territorial entity, Oregon', 'Portland, country, United States, U.S.', 'Oregon, located in the administrative territorial entity, United States, U.S.', 'Oregon, country, United States, U.S.', 'Oregon, contains administrative territorial entity, Washington County', 'Raleigh Hills, country, United States, U.S.', 'Raleigh Hills, located in the administrative territorial entity, Washington County', 'Washington County, country, United States, U.S.', 'Washington County, located in the administrative territorial entity, Oregon', 'Washington County, contains administrative territorial entity, Raleigh Hills', 'Beaverton, country, United States, U.S.', 'PGA Championship, country, United States, U.S.']
+
+Please extract the entities and relations for the following input text
+Input Text:
+Pointr is a startup company based in London specialized in indoor positioning and navigation utilising iBeacons , which are Bluetooth Low Energy devices formalised by Apple Inc. Pointr have created a GPS - like experience with true position and turn - by - turn navigation that is supported by most modern smartphones operating on both Android and iOS . Analytics and messaging modules can be added on to help communicate with users and understand venue usage respectively . The features are provided through a software package ( SDK ) which aims to improve user experience whilst connecting the online and offline worlds . Many of the features are available without an internet connection , including sending messages between users with a form of Mesh networking , however for intelligent offers and live analytics then an internet connection is required . The markets where the technology is most frequently used are retail , exhibition centres , airports and museums , but there are a number of uses in hospitals , warehouses , offices and entertainment venues as well . The majority of software development is done in their office in Istanbul , with specialist modules created in London . The technology is commonly used in permanent installations where the SDK is offered with a license fee model , however some installations have been temporary and hence one - off payments have been used .
+Entities: []
+Relations: []
+
+Relations should limited to only:
+['head of government','country','place of birth','place of death','father','mother','spouse','country of citizenship','continent','instance of','head of state','capital','official language','position held','child','author','member of sports team','director','screenwriter','educated at','composer','member of political party','employer','founded by','league','publisher','owned by','located in the administrative territorial entity','genre','operator','religion','contains administrative territorial entity','follows','followed by','headquarters location','cast member','producer','award received','creator','parent taxon','ethnic group','performer','manufacturer','developer','series','sister city','legislative body','basin country','located in or next to body of water','military branch','record label','production company','location','subclass of','subsidiary','part of','original language of work','platform','mouth of the watercourse','original network','member of','chairperson','country of origin','has part','residence','date of birth','date of death','inception','dissolved, abolished or demolished','publication date','start time','end time','point in time','conflict','characters','lyrics by','located on terrain feature','participant','influenced by','location of formation','parent organization','notable work','separated from','narrative location','work location','applies to jurisdiction','product or material produced','unemployment rate','territory claimed by','participant of','replaces','replaced by','capital of','languages spoken, written or signed','present in work','sibling']
+
+
+For the input text regarding Pointr, let's identify the entities and their relations based on the provided details:
+Entities:
+
+    Pointr
+    London
+    iBeacons
+    Bluetooth Low Energy devices
+    Apple Inc.
+    Android and iOS
+    SDK (Software Development Kit)
+    Internet connection
+    Mesh networking
+    Retail
+    Exhibition centres
+    Airports
+    Museums
+    Hospitals
+    Warehouses
+    Offices
+    Entertainment venues
+    Istanbul
+
+Relations:
+
+    Pointr, headquarters location, London
+    Pointr, developer, SDK
+    iBeacons, manufacturer, Apple Inc.
+    SDK, supported by, Android and iOS
+    SDK, requires, Internet connection (for intelligent offers and live analytics)
+    Mesh networking, feature of, SDK
+    SDK, used in, Retail
+    SDK, used in, Exhibition centres
+    SDK, used in, Airports
+    SDK, used in, Museums
+    Pointr, location of software development, Istanbul
+    Pointr, operates in, Technology sector (implied by the context of indoor positioning and navigation)
+    SDK, operates without, Internet connection (for certain features)
+
+These relations highlight the operational and technological aspects of Pointr, focusing on its product offerings, geographical operation base, and sectorial applications.

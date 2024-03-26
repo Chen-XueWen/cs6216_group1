@@ -1,0 +1,50 @@
+The below are Input Text, entities and relations in the text:
+
+Input Text:
+The Portland Golf Club is a private golf club in the northwest United States , in suburban Portland , Oregon . It is located in the unincorporated Raleigh Hills area of eastern Washington County , southwest of downtown Portland and east of Beaverton . PGC was established in the winter of 1914 , when a group of nine businessmen assembled to form a new club after leaving their respective clubs . The present site was chosen due to its relation to the Spokane , Portland and Seattle Railway 's interurban railroad line with frequent passenger service to the site because automobiles and roads were few . The PGA Championship , then a match play competition , was held at the club in 1946 . Ben Hogan , age 34 , overcame an early deficit in the 36-hole final match on August 25 to win 6 & 4 ; it was the first of his nine major titles . He had won the Portland Open the previous year in early autumn with a score of The following year , PGC hosted the Ryder Cup matches of 1947 , the first renewal in a decade , due to World War II . The U.S. team defeated Great Britain 11 to 1 in wet conditions in early November .
+Entities:
+['PGC, Portland Golf Club', 'United States, U.S.', 'Portland', 'Oregon', 'Raleigh Hills', 'Washington County', 'Beaverton', '1914', 'nine', 'Spokane', 'Seattle Railway', 'PGA Championship', '1946', 'Ben Hogan', '36-hole', 'August 25', 'Portland Open', 'Ryder Cup', '1947', 'World War II', 'Great Britain', '11', 'November']
+Relations:
+['PGC, Portland Golf Club, country, United States, U.S.', 'PGC, Portland Golf Club, located in the administrative territorial entity, Oregon', 'PGC, Portland Golf Club, inception, 1914', 'United States, U.S., contains administrative territorial entity, Oregon', 'Portland, country, United States, U.S.', 'Oregon, located in the administrative territorial entity, United States, U.S.', 'Oregon, country, United States, U.S.', 'Oregon, contains administrative territorial entity, Washington County', 'Raleigh Hills, country, United States, U.S.', 'Raleigh Hills, located in the administrative territorial entity, Washington County', 'Washington County, country, United States, U.S.', 'Washington County, located in the administrative territorial entity, Oregon', 'Washington County, contains administrative territorial entity, Raleigh Hills', 'Beaverton, country, United States, U.S.', 'PGA Championship, country, United States, U.S.']
+
+Please extract the entities and relations for the following input text
+Input Text:
+Norvelt is a census - designated place in Mount Pleasant Township , Westmoreland County , Pennsylvania , United States . The community was part of the Calumet - Norvelt CDP for the 2000 census , but was split into the two separate communities of Calumet and Norvelt for the 2010 census . Calumet was a typical company town , locally referred to as a " patch " or " patch town " , built by a single company to house coal miners as cheaply as possible . On the other hand , Norvelt was created during the depression by the federal government of the United States as a model community , intended to increase the standard of living of laid - off coal miners . Award winning writer Jack Gantos was born in the village and wrote a book about it
+Entities: []
+Relations: []
+
+Relations should limited to only:
+['head of government','country','place of birth','place of death','father','mother','spouse','country of citizenship','continent','instance of','head of state','capital','official language','position held','child','author','member of sports team','director','screenwriter','educated at','composer','member of political party','employer','founded by','league','publisher','owned by','located in the administrative territorial entity','genre','operator','religion','contains administrative territorial entity','follows','followed by','headquarters location','cast member','producer','award received','creator','parent taxon','ethnic group','performer','manufacturer','developer','series','sister city','legislative body','basin country','located in or next to body of water','military branch','record label','production company','location','subclass of','subsidiary','part of','original language of work','platform','mouth of the watercourse','original network','member of','chairperson','country of origin','has part','residence','date of birth','date of death','inception','dissolved, abolished or demolished','publication date','start time','end time','point in time','conflict','characters','lyrics by','located on terrain feature','participant','influenced by','location of formation','parent organization','notable work','separated from','narrative location','work location','applies to jurisdiction','product or material produced','unemployment rate','territory claimed by','participant of','replaces','replaced by','capital of','languages spoken, written or signed','present in work','sibling']
+
+For the input text about Norvelt, we can identify the entities and their relations as follows:
+Entities:
+
+    Norvelt
+    Mount Pleasant Township
+    Westmoreland County
+    Pennsylvania
+    United States
+    Calumet-Norvelt CDP
+    2000 census
+    2010 census
+    Calumet
+    Depression (time period)
+    Federal government of the United States
+    Jack Gantos
+
+Relations:
+
+    Norvelt, located in the administrative territorial entity, Mount Pleasant Township
+    Mount Pleasant Township, contains administrative territorial entity, Norvelt
+    Norvelt, located in the administrative territorial entity, Westmoreland County
+    Westmoreland County, contains administrative territorial entity, Mount Pleasant Township
+    Norvelt, located in the administrative territorial entity, Pennsylvania
+    Pennsylvania, country, United States
+    Calumet-Norvelt CDP, followed by, Norvelt (and Calumet as separate communities for the 2010 census)
+    Norvelt, inception, during the depression
+    Federal government of the United States, founder of, Norvelt
+    Jack Gantos, place of birth, Norvelt
+    Jack Gantos, author, [Not explicitly stated but implied by writing a book about Norvelt]
+    Norvelt, part of, United States
+
+These entities and relations capture the geographical, historical, and notable individuals associated with Norvelt, based on the given text and the specified relation categories.
